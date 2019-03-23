@@ -1,0 +1,27 @@
+{
+  "name": "protractortutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor outputjs/config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.3.9",
+    "@types/jasminewd2": "^2.0.6",
+    "jasmine": "^3.3.1",
+    "protractor": "5.4.2",
+    "typescript": "~3.3.3333",
+    "nodemailer": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/core-js": "0.9.46",
+    "ts-node": "^8.0.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
